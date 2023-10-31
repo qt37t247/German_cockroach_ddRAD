@@ -1,0 +1,30 @@
+##############Release reads to sample by demultiplexing##############################################
+process_radtags -1 RAW_R1.fastq.gz -2 RAW_R2.fastq.gz -o DEMULT --renz_1 ecoRI --renz_2 mseI -b barcode.txt -i gzfastq -c -q -r --inline_index
+
+##############Align reads to reference genome and ultimately generate sorted bam files###############
+cd ./DEMULT
+for i in *_1.fq.gz
+do 
+base=${i%_1*}
+bwa mem -t 8 -p REFERENCE_GENOME_FILE "${base}_1.fq.gz" "${base}_2.fq.gz" | \
+samtools view -bSq 20 -@ 8| \
+samtools sort -@ 8 -o "${base}.bam"
+done
+
+###################STACKS SNP calling##################################################################
+ref_map.pl -T 8 --samples DIRECTORYTOSORTEDBAMFILES --popmap ./popmap.txt -o OUTDIR -X "populations: --plink"
+
+###################PLINK for quality filters###########################################################
+##NOTE: use --recode flexibly for different output 
+####("--recode" to create .ped file for next step; 
+#####"--reocde vcf" to create .vcf file for R-based analyses; 
+#####"--recode12" to create .ped file for ADMIXTURE; 
+
+##Filter loci >10% missingness and linked to neighbouring loci
+
+plink --file STACKSOUTPUT --allow-extra-chr --geno 0.1 --out DATA1 --recode
+plink --file DATA1 --allow-extra-chr --allow-no-sex --indep-pairwise 25 10 0.95
+##Export as vcf file
+plink --file DATA1 --extract plink.prune.in --allow-extra-chr --out DATA1L --recode vcf
+##Export as input of ADMIXTURE
+plink --file DATA1 --extract plink.prune.in --allow-extra-chr --out DATA1L_adm --recode12
