@@ -36,8 +36,6 @@ xxx_jointMAFpopX_Y.obs (i.e. the 2D-SFS of a pair of populations [X and Y] inclu
 
 After the simulations, perform "bestrun.sh" to extract the best run for each demographic model into a new folder named "bestrun".
 
-Run "AIC.R" to calculate AIC value for the bestrun of each demographic model. Compare the AIC values among models to determine the best model.
-
 ## Parametric bootstrapping 
 
 Once the best demographic model is determined, modify the "xxx_maxL.par" in the subfolder "bestrun" of the folder of the best demographic model.
