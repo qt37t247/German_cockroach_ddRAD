@@ -1,0 +1,17 @@
+// Priors and rules file
+// *********************
+
+[PARAMETERS]
+//#isInt? #name   #dist.#min  #max
+//all N are in number of haploid individuals
+1  NBS       logunif  1   100000  output
+1  NPD       logunif  1   100000  output
+1  NVW       logunif  1   100000  output
+1  NANC1     logunif  1   1000000 output
+1  NANC2     logunif  1   1000000 output
+1  TDIV2     logunif  1   100000  output reference
+1  TDIV1     logunif  1   TDIV2   output bounded paramInRange
+
+[RULES]
+
+[COMPLEX PARAMETERS]
