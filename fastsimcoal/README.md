@@ -1,8 +1,23 @@
-# Scripts and input files for simulating demographical events of Asian horseshoe crabs
+# Scripts and input files for German cockroaches' spread route reconstruction 
 
-Two horseshoe crab species detected significant population structure were tested: Carcinoscorpius rotundicauda (CR) and Tachypleus tridentatus (TT)
+For the spread route reconstruction, we adopted stepwise strategy, in which results of previous stage were used as prior in the next stage. 
 
-The two folders contain input files for the two horseshoe crab species respectively.
+The entire reconstruction comprises four stages of demographic model optimization/initial parameter estimation and a final stage of parameter estimation/parameteric bootstrapping.
+
+Sample composition of panels used for demographic modelling (“⃝” means the individuals in the sampling site were included in the observed site frequency spectrum, whereas “×” means only demographic parameters were used to represent the individuals in the sampling site.):
+
+|	|PRE|IRA|CHN|ETP|UKR|COH|NDL|WST|EST|WLD|
+|	|Stage I|Stage II|Stage II|Stage III|Stage III|Stage III|Stage III|Stage IV|Final|Final|
+|Addis Ababa, Ethiopia|	|	|	|	⃝|	|	|	|	|	|	⃝|
+|Bandung, Indonesia|	⃝|	⃝|	⃝|	⃝|	⃝|	⃝|	⃝|	|×|	⃝|	|×|
+|Biljmer, Netherlands|	|	|	|	|	|	|	⃝|	⃝|	|	⃝|
+|Busan, Korea|	⃝|	⃝|	⃝|	⃝|	⃝|	⃝|	⃝|	|×|	⃝|	|×|
+|Chongqing, China|	|	|	⃝|	|	|	|	|	|	⃝|	|×|
+|Crimea, Ukraine|	|	|	|	|	⃝|	|	|	⃝|	|	⃝|
+|Raleigh, USA|	|	|	|	|	|	⃝|	|	⃝|	|	⃝|
+|Tehran, Iran|	|	⃝|	|	⃝|	⃝|	⃝|	⃝|	⃝|	⃝|	⃝|
+|Vijaywasa, India|	⃝|	⃝|	⃝|	⃝|	⃝|	⃝|	⃝|	|×|	⃝|	⃝|
+
 
 ## Initial simulations of 50 runs
 
