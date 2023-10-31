@@ -6,17 +6,17 @@ The entire reconstruction comprises four stages of demographic model optimizatio
 
 Sample composition of panels used for demographic modelling (“⃝” means the individuals in the sampling site were included in the observed site frequency spectrum, whereas “×” means only demographic parameters were used to represent the individuals in the sampling site.):
 
-|	|PRE|IRA|CHN|ETP|UKR|COH|NDL|WST|EST|WLD|
-|	|Stage I|Stage II|Stage II|Stage III|Stage III|Stage III|Stage III|Stage IV|Final|Final|
-|Addis Ababa, Ethiopia|	|	|	|	⃝|	|	|	|	|	|	⃝|
-|Bandung, Indonesia|	⃝|	⃝|	⃝|	⃝|	⃝|	⃝|	⃝|	|×|	⃝|	|×|
-|Biljmer, Netherlands|	|	|	|	|	|	|	⃝|	⃝|	|	⃝|
-|Busan, Korea|	⃝|	⃝|	⃝|	⃝|	⃝|	⃝|	⃝|	|×|	⃝|	|×|
-|Chongqing, China|	|	|	⃝|	|	|	|	|	|	⃝|	|×|
-|Crimea, Ukraine|	|	|	|	|	⃝|	|	|	⃝|	|	⃝|
-|Raleigh, USA|	|	|	|	|	|	⃝|	|	⃝|	|	⃝|
-|Tehran, Iran|	|	⃝|	|	⃝|	⃝|	⃝|	⃝|	⃝|	⃝|	⃝|
-|Vijaywasa, India|	⃝|	⃝|	⃝|	⃝|	⃝|	⃝|	⃝|	|×|	⃝|	⃝|
+|  | PRE | IRA | CHN | ETP | UKR | COH | NDL | WST | EST | WLD |
+|  | Stage I | Stage II | Stage II | Stage III | Stage III | Stage III | Stage III | Stage IV | Final | Final |
+| Addis Ababa, Ethiopia |  |  |  | ? |  |  |  |  |  | ? |
+| Bandung, Indonesia | ? | ? | ? | ? | ? | ? | ? |  | × | ? |  | × |
+| Biljmer, Netherlands |  |  |  |  |  |  | ? | ? |  | ? |
+| Busan, Korea | ? | ? | ? | ? | ? | ? | ? |  | × | ? |  | × |
+| Chongqing, China |  |  | ? |  |  |  |  |  | ? |  | × |
+| Crimea, Ukraine |  |  |  |  | ? |  |  | ? |  | ? |
+| Raleigh, USA |  |  |  |  |  | ? |  | ? |  | ? |
+| Tehran, Iran |  | ? |  | ? | ? | ? | ? | ? | ? | ? |
+| Vijaywasa, India | ? | ? | ? | ? | ? | ? | ? |  | × | ? | ? |
 
 
 ## Initial simulations of 50 runs
