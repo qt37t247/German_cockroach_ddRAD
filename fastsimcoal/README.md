@@ -4,7 +4,7 @@ For the spread route reconstruction, we adopted stepwise strategy, in which resu
 
 The entire reconstruction comprises four stages of demographic model optimization/initial parameter estimation and a final stage of parameter estimation/parameteric bootstrapping.
 
-Sample composition of panels used for demographic modelling (“⃝” means the individuals in the sampling site were included in the observed site frequency spectrum, whereas “×” means only demographic parameters were used to represent the individuals in the sampling site.):
+Sample composition of panels used for demographic modelling (“?” means the individuals in the sampling site were included in the observed site frequency spectrum, whereas “×” means only demographic parameters were used to represent the individuals in the sampling site.):
 
 |  | PRE | IRA | CHN | ETP | UKR | COH | NDL | WST | EST | WLD |
 |--- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |
@@ -19,9 +19,6 @@ Sample composition of panels used for demographic modelling (“⃝” means the
 | Tehran, Iran |  | ? |  | ? | ? | ? | ? | ? | ? | ? |
 | Vijaywasa, India | ? | ? | ? | ? | ? | ? | ? |  | × | ? | ? |
 
-Attempt | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
---- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
-Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
 
 ## Initial simulations of 50 runs
 
