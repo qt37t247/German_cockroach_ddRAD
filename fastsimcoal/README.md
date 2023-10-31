@@ -20,7 +20,7 @@ Sample composition of panels used for demographic modelling (“O” means the i
 | Vijaywasa, India | O | O | O | O | O | O | O |  | × | O | O |
 
 
-##!!!Subsequent section underconstruction.........
+## !!!Subsequent section underconstruction.........
 
 ## Initial simulations of 50 runs
 
