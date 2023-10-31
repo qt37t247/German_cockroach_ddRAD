@@ -58,8 +58,8 @@ Different scenarios under the same panel share the same .obs file, but need to r
 
 ## Step 6. Spread route reconstruction with coalescent simulation
 
-Input files and scripts in the folder "FastSimCoal"
+Input files and scripts in the folder "fastsimcoal"
 
 Program used: 
 
-FastSimCoal2: http://cmpg.unibe.ch/software/fastsimcoal27/
+fastsimcoal2: http://cmpg.unibe.ch/software/fastsimcoal27/
