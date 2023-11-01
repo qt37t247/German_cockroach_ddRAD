@@ -47,7 +47,7 @@ xxx_maxL.par (i.e. the .par file where the estimated parameters have been replac
 
 Modify the "xxx_maxL.par" to create "xxx_boot.par" by replacing "FREQ" with "DNA" for data type and corresponding change in the number of loci to simulate.
 
-Use the "xxx_boot.par" as input to simulate 100 SFS with the command (for batch submission to HPC, please refer to "SFS_bootstrapping_100.sh"):
+Use the "xxx_boot.par" as input to simulate 100 SFS with the command:
 
 ```
 fsc -c 12 -i xxx_boot.par -n100 -j -m -s0 -x –I -q --foldedSFS
