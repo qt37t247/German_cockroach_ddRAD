@@ -46,7 +46,7 @@ Nucleotide diversity at each sampling site (assuming site named "XX", sample nam
 
 `vcftools --vcf DATA1L.vcf --keep XX.txt --site-pi --out XX`
 
-As consequence, nucleotide diversity will be output in a file named "XX.site.pi".
+As consequence, nucleotide diversity will be output in a file named "XX.sites.pi".
 
 Number of private alleles at each sampling site is calculated with R package PopGenReport.
 
