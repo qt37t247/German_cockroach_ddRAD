@@ -34,9 +34,21 @@ Program used:
 ADMIXTURE: https://dalexander.github.io/admixture/
 
 
-## Step 4. Regression between nucleotide diversity and number of private alleles
+## Step 4. Regression between nucleotide diversity and number of private alleles (pi_pa.R)
 
-Accidentally deleted the folder, underconstruction now........
+Program and packages used:
+
+VCFTools: https://vcftools.sourceforge.net
+
+PopGenReport: https://cran.r-project.org/web/packages/PopGenReport/index.html
+
+Nucleotide diversity at each sampling site (assuming site named "XX", sample names are listed in "XX.txt") is calculated with VCFTools:
+
+`vcftools --vcf DATA1L.vcf --keep XX.txt --site-pi --out XX`
+
+Number of private alleles at each sampling site is calculated with R package PopGenReport.
+
+Generalized lineage model is used to compute the correlation between nucleotide diversity and number of private alleles.
 
 
 ## Step 5. Folded site frequency spectrum (SFS) calculation from vcf file
