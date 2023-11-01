@@ -53,5 +53,5 @@ Use the "xxx_boot.par" as input to simulate 100 SFS with the command:
 fsc -c 12 -i xxx_boot.par -n100 -j -m -s0 -x –I -q --foldedSFS
 ```
 
-This will create 100 folders. For each folder, run the parameter estimate with "Bootstrapping_simulations.sh" and then "CI.R" to get confidence intervals for the estimated demographic parameters.
+This will create 100 folders. For each folder, run the parameter estimate with "Parametric_bootstrapping.sh" and then "CI.R" to get confidence intervals for the estimated demographic parameters.
 
