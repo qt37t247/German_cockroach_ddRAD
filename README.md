@@ -26,6 +26,8 @@ Package used:
 
 SNPRelate: https://bioconductor.org/packages/release/bioc/html/SNPRelate.html
 
+We also calculated inbreeding coefficient (FIS) per sampling site and pairwise fixation index (FST) per pair of sampling sites. 
+
 
 ## Step 3. Maximum likelihood ancestry estimation with ADMIXTURE (adm.sh)
 
