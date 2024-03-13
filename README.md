@@ -89,5 +89,5 @@ For batch 1, we used 49 populations for 0 to 24 migration edges, with 10 indepen
 
 For batch 2, we used 18 populations for 0 to 19 migration edges, with 10 independant runs for each number of migration edges tested.
 
-Please see input files adn scripts in the folder "TreeMix_BG". The analyses were parallelized jobs for qsub scheduler in NUS HPC. 
+Please see input files adn scripts in the folder "TreeMix_BG". The analyses were parallelized jobs for qsub scheduler in Aspire2a NSCC. 
 
