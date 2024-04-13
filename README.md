@@ -9,7 +9,7 @@ Additional information:
 
 Sequencing reads are archived in NCBI under Bioproject PRJNA1099617. Uploading not complete yet, will let you know!!!
 
-To download the data, you may use the command below:
+To download the data, you may use the command below (install relevant NCBI tools accordingly):
 
 ```bash
 project='PRJNA1099617'
