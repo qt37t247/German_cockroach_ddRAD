@@ -13,9 +13,9 @@ To download the data, you may use the command below:
 
 ```bash
 project='PRJNA1099617'
-#esearch -db sra -query $project | efetch -format runinfo > runinfo.csv
-#cat runinfo.csv | cut -d "," -f 1 > SRR.numbers
-#sed '1d' SRR.numbers | parallel -j 12 fastq-dump --split-files --origfmt --gzip {}
+esearch -db sra -query $project | efetch -format runinfo > runinfo.csv
+cat runinfo.csv | cut -d "," -f 1 > SRR.numbers
+sed '1d' SRR.numbers | parallel -j 12 fastq-dump --split-files --origfmt --gzip {}
 ```
 
 
