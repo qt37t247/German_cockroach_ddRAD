@@ -7,7 +7,9 @@ Additional information:
 
 ## Data availability
 
-Sequencing reads are archived in NCBI under Bioproject PRJNA1099617. Uploading not complete yet, will let you know!!!
+Sequencing reads are archived in NCBI under Bioproject PRJNA1099617. 
+
+Uploading in progress, will let you know!!!
 
 To download the data, you may use the command below (may need to install relevant NCBI tools accordingly):
 
