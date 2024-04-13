@@ -5,6 +5,20 @@ Manuscript title: Global spread of the German cockroach.
 Additional information:
 
 
+## Data availability
+
+Sequencing reads are archived in NCBI under Bioproject PRJNA1099617. Uploading not complete yet, will let you know!!!
+
+To download the data, you may use the command below:
+
+```bash
+project='PRJNA1099617'
+#esearch -db sra -query $project | efetch -format runinfo > runinfo.csv
+#cat runinfo.csv | cut -d "," -f 1 > SRR.numbers
+#sed '1d' SRR.numbers | parallel -j 12 fastq-dump --split-files --origfmt --gzip {}
+```
+
+
 ## Step 1. Bioinformatic pipeline and variant calling (SNPs.txt)
 
 Programs used: 
