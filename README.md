@@ -1,8 +1,6 @@
 # Scripts used for the ddRADSeq data of the German cockroaches
 
-Manuscript title: Global spread of the German cockroach.
-
-Additional information:
+If use the data and script, please cite: Solving the 250-year-old mystery of the origin and global spread of the German cockroach, Blattella germanica.
 
 
 ## Data availability
