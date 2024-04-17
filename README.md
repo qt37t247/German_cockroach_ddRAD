@@ -1,6 +1,9 @@
 # Scripts used for the ddRADSeq data of the German cockroaches
 
-If use the data and script, please cite: Solving the 250-year-old mystery of the origin and global spread of the German cockroach, Blattella germanica.
+In this project, we collected German cockroach samples from 17 counties around the world. We illustrated population genetic structure and reconstructed spread routes for worldwide German cockroach based on genome-wide single nucleotide polymorphisms produced with ddRADseq methods.
+
+Please find the details in the publication:
+Tang et al., (in press). Solving the 250-year-old mystery of the origin and global spread of the German cockroach, Blattella germanica. PNAS.
 
 
 ## Data availability
