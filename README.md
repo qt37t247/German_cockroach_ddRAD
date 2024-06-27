@@ -4,7 +4,7 @@ In this project, we collected German cockroach samples from 17 counties around t
 
 Please find the details in the publication:
 
-Tang et al., (in press). Solving the 250-year-old mystery of the origin and global spread of the German cockroach, Blattella germanica. PNAS.
+Tang, Q., Vargo, E. L., Ahmad, I., Jiang, H., Varadínová, Z. K., Dovih, P., ... & Evans, T. A. (2024). Solving the 250-year-old mystery of the origin and global spread of the German cockroach, Blattella germanica. Proceedings of the National Academy of Sciences, 121(22), e2401185121.
 
 
 ## Data availability
